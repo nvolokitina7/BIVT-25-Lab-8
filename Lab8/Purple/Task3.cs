@@ -6,7 +6,7 @@ namespace Lab8.Purple
         {
             private string _name; private string _surname;
             private double[] _marks; private int[] _places;
-            private int _top; private double _total; private int _score;
+            // private int _top; private double _total; private int _score;
 
             public string Name => _name; public string Surname => _surname;
             public double[] Marks => (double[])_marks.Clone(); public int[] Places => (int[])_places.Clone();
@@ -25,7 +25,7 @@ namespace Lab8.Purple
             {
                 _name = name; _surname = surname;
                 _marks = new double[7]; _places = new int[7];
-                _top = 0; _total = 0; _score = 0;
+                // _top = 0; _total = 0; _score = 0;
             }
             public void Evaluate(double result)
             {
